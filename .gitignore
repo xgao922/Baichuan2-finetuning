@@ -1,0 +1,25 @@
+# 忽略所有的 .log 文件
+*.log
+
+# 忽略 idea 目录
+.idea/
+.vscode/
+data/
+fine-tune/model
+fine-tune/logs
+vocabulary/
+scripts/process_corpus
+scripts/sample_test_set
+scripts/test_tokenization
+
+# 忽略编译后的文件
+/dist
+/build
+
+# 忽略临时文件
+*.tmp
+*.swp
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
